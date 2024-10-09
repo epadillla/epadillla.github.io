@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title                    : "Erick Padilla-Galviz"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Erick Padilla-Galviz"
 description              : &description "personal description"
 url                      : https:/epadillagalviz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Erick Stivens Padilla-Galviz"
   pronouns         : # example: "she/her"  
-  bio              : "Phd Candidate"
+  bio              : "PhD Candidate"
   location         : "Barcelona"
   employer         : "Universitat de Barcelona"
   uri              : # URL
