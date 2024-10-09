@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Candidate in Political Science at the Universitat de Barcelona [Universitat de Barcelona](https://web.ub.edu/es/inicio). I am a researcher at the [AI-PSR](http://aipsr.net/) group.
+I am a second-year PhD Candidate in Political Science at the [Universitat de Barcelona](https://web.ub.edu/es/inicio) and a researcher at the [AI-PSR](http://aipsr.net/) group. My thesis project focuses on the political economy of AI and working from home. I am particularly interested in how these technological shocks have impacted the labour market and how such impacts translate into political behaviour and attitudes.
+
+Previous to starting my PhD, I have served as RA at the Universitat Pompeu Fabra. I hold a BA in Political Science and Public Administration from Universitat de València and a Research Master in Political Science from Universitat Pompeu Fabra.
+
+I am also broadly interested in comparative politics, political behaviour, and political economy, as well as the most recent advances in social research methodology; especially causal inference and computational social science.
 
 
