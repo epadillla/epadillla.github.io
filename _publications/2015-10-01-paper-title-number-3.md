@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 3"
+title: "Does Losing Affect Democratic Attitudes and Preferences among Rank-and-File Political Candidates? A Comparative Study in 27 Elections"
 collection: publications
 category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+# permalink: /publication/2015-10-01-paper-title-number-3
+excerpt: '<em>With Álvaro Canalejo-Molero</em>'
+# date: 2015-10-01
+# venue: 'Journal 1'
+# slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
+# paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+# citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The foundation of democracies rests upon the acknowledgement and consent of electoral results by those on the losing side. Recent political developments in Brazil and the USA vividly illustrate the potential risks that emerge when opposition leaders defy the validity of the results. At the same time, it is widely acknowledged that a winner-loser gap exists in democratic attitudes among voters. However, scant attention has been given to understanding how electoral defeats impact the democratic perspectives of rank-and-file political candidates. Addressing this gap, our paper delves into an analysis of 27 parliamentary elections across 16 countries, drawing on data from the Comparative Candidate Survey from 2005 to 2018. We contend that electoral losses have a detrimental impact on the democratic attitudes of politicians. Uniquely, our study is the first to incorporate party electoral outcomes and individual candidates’ results in measuring the winner-loser gap. Our findings reveal a consistent effect of both individual and collective electoral losses on various indicators of politicians’ democratic attitudes, including not only satisfaction with democracy but also preference for specific democratic institutions, such as referenda or different roles of the parliament. Using an RDD analysis with electoral data from Iceland, we show evidence that these relationships are indeed causal. Our study provides valuable insights into the psychological effects of losing among political candidates that can contribute to preventing the erosion of democratic principles and practices.
