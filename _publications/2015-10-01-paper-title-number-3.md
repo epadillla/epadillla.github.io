@@ -1,4 +1,3 @@
-
 ---
 title: "How does AI automation impact workers’ political behaviour?"
 collection: publications
