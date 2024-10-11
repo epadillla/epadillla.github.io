@@ -2,7 +2,7 @@
 title: "How does AI automation impact workers’ political behaviour?"
 collection: publications
 category: manuscripts
-# permalink: /publication/2009-10-01-paper-title-number-3
+permalink: /publication/AI-automation
 excerpt: ""
 # date: ""
 # venue: 'Journal 1'
