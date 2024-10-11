@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Outreach"
-permalink: /cv/
+permalink: /outreach/
 author_profile: true
 redirect_from:
   - /resume
