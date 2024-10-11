@@ -11,8 +11,7 @@ I am a second-year PhD Candidate in Political Science at the [Universitat de Bar
 
 My thesis project focuses on the political economy of AI and working from home. I am particularly interested in how these technological shocks have impacted the labour market and how such impacts translate into political behaviour and attitudes.
 
-Previous to starting my PhD, I have served as RA at the Universitat Pompeu Fabra. I hold a BA in Political Science and Public Administration from the Universitat de València and a Research Master in Political Science from the Universitat Pompeu Fabra.
+Before starting my PhD, I worked as an RA at the Universitat Pompeu Fabra. I hold a BA in Political Science and Public Administration from the Universitat de València and a Research Master in Political Science from the Universitat Pompeu Fabra.
 
-I am also broadly interested in comparative politics, political behaviour, and political economy, as well as in social research methodology; especially causal inference and computational social science.
-
+I am interested in comparative politics, political behaviour, and political economy. Additionally, I closely follow methodological debates in the social sciences, particularly those surrounding causal inference and computational social science
 
