@@ -13,5 +13,5 @@ My thesis project focuses on the political economy of AI and working from home. 
 
 Before starting my PhD, I worked as an RA at the Universitat Pompeu Fabra. I hold a BA in Political Science and Public Administration from the Universitat de València and a Research Master in Political Science from the Universitat Pompeu Fabra.
 
-I am interested in comparative politics, political behaviour, and political economy. Additionally, I closely follow methodological debates in the social sciences, particularly those surrounding causal inference and computational social science
+I am interested in comparative politics, political behaviour, and political economy. Additionally, I closely follow the methodological debates in the social sciences, particularly those surrounding causal inference and computational social science.
 
