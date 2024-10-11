@@ -12,7 +12,7 @@ title                    : "Erick Padilla-Galviz"
 title_separator          : "-"
 name                     : &name "Erick Padilla-Galviz"
 description              : &description "personal description"
-url                      : https:/epadilla.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https:/epadillla.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
