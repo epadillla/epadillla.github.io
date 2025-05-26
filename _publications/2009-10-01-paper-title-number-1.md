@@ -7,7 +7,7 @@ excerpt: '<em>With Álvaro Canalejo-Molero</em>'
 # date: ""
 # venue: 'Journal 1'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'https://osf.io/preprints/osf/58csh_v2'
+# paperurl: 'https://osf.io/preprints/osf/58csh_v2'
 # citation: 'Your Name, You. (2015). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
