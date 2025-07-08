@@ -1,8 +1,8 @@
 ---
-# title: "Working Alone? Working from Home and Political Participation"
-# collection: publications
-# category: manuscripts
-# permalink: /publications/wfh-participation/
+# title:
+# collection:
+# category:
+# permalink: 
 # excerpt: ""
 # date: 2010-10-01
 # venue: 'Journal 1'
