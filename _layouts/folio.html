@@ -10,15 +10,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.min.css">
     <link rel="stylesheet" href="{{ base_path }}/assets/css/folio.css?v={{ site.time | date: "%s" }}">
-    <script>
-      // Apply the saved theme before the page paints, to avoid a flash
-      (function () {
-        var t = null;
-        try { t = localStorage.getItem("theme"); } catch (e) {}
-        if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-        document.documentElement.setAttribute("data-theme", t);
-      })();
-    </script>
   </head>
 
   <body>
@@ -36,11 +27,6 @@
             {% if link.url contains '://' %}{% assign url = link.url %}{% else %}{% assign url = link.url | prepend: base_path %}{% endif %}
             <li class="nav-item{% if page.url == link.url %} active{% endif %}"><a class="nav-link" href="{{ url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li class="nav-item">
-            <button id="theme-toggle" type="button" title="Change theme" aria-label="Change theme">
-              <i class="fa-solid fa-moon only-light"></i><i class="fa-solid fa-sun only-dark"></i>
-            </button>
-          </li>
         </ul>
       </div>
     </nav>
@@ -56,7 +42,7 @@
           {% endif %}
         </header>
 
-        <article>
+        <article{% if page.home %} class="home"{% endif %}>
           {% if page.home %}
             <div class="profile">
               <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
@@ -87,12 +73,6 @@
 
     <script>
       (function () {
-        var root = document.documentElement;
-        document.getElementById("theme-toggle").addEventListener("click", function () {
-          var t = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
-          root.setAttribute("data-theme", t);
-          try { localStorage.setItem("theme", t); } catch (e) {}
-        });
         var toggler = document.querySelector(".navbar-toggler");
         toggler.addEventListener("click", function () {
           var open = document.querySelector(".navbar").classList.toggle("open");
