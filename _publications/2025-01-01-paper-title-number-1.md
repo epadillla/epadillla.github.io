@@ -2,10 +2,13 @@
 title: "Things will have to change? Analysing the Spanish transition to democracy from an elite perspective"
 collection: publications
 category: publications
+order: 3
 permalink: /publications/transition/
+authors: 'Padilla, J., León-Reyes, B., Echevarría, I., Padilla-Galviz, E., Pamies, C., & Valero de Urquía, B.'
+year: 2025
+venue: 'Democratization, 32(3), 788–809'
 excerpt: '<em>With Javier Padilla, Bernardino León-Reyes, Inés Echevarría, Carles Pamies & Beatriz Valero</em>'
 paperurl: 'https://www.tandfonline.com/doi/full/10.1080/13510347.2024.2418996'
 citation: 'Padilla, J., León-Reyes, B., Echevarría, I., Padilla-Galviz, E., Pamies, C., & Valero de Urquía, B. (2025). Things will have to change? Analysing the Spanish transition to democracy from an elite perspective. Democratization, 32(3), 788–809. https://doi.org/10.1080/13510347.2024.2418996'
 date: 2025-01-01
-# venue: 'GitHub Journal of Bugs'
 ---

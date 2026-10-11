@@ -1,0 +1,103 @@
+{% include base_path %}<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include seo.html %}
+    <link rel="shortcut icon" href="{{ base_path }}/images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.min.css">
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/folio.css">
+    <script>
+      // Apply the saved theme before the page paints, to avoid a flash
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem("theme"); } catch (e) {}
+        if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container navbar-inner">
+        {% unless page.home %}
+          <a class="navbar-brand" href="{{ base_path }}/"><span class="font-weight-bold">{{ site.title | split: " " | first }}</span> {{ site.title | split: " " | last }}</a>
+        {% endunless %}
+        <button class="navbar-toggler" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </button>
+        <ul class="navbar-nav">
+          <li class="nav-item{% if page.home %} active{% endif %}"><a class="nav-link" href="{{ base_path }}/">About</a></li>
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains '://' %}{% assign url = link.url %}{% else %}{% assign url = link.url | prepend: base_path %}{% endif %}
+            <li class="nav-item{% if page.url == link.url %} active{% endif %}"><a class="nav-link" href="{{ url }}">{{ link.title }}</a></li>
+          {% endfor %}
+          <li class="nav-item">
+            <button id="theme-toggle" type="button" title="Change theme" aria-label="Change theme">
+              <i class="fa-solid fa-moon only-light"></i><i class="fa-solid fa-sun only-dark"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main class="container" role="main">
+      <div class="post">
+        <header class="post-header">
+          {% if page.home %}
+            <h1 class="post-title"><span class="font-weight-bold">{{ site.title | split: " " | first }}</span> {{ site.title | split: " " | last }}</h1>
+            <p class="desc">{{ page.subtitle }}</p>
+          {% else %}
+            <h1 class="post-title">{{ page.title }}</h1>
+          {% endif %}
+        </header>
+
+        <article>
+          {% if page.home %}
+            <div class="profile">
+              <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="{{ site.author.name }}">
+            </div>
+          {% endif %}
+          <div class="clearfix">
+            {{ content }}
+          </div>
+
+          {% if page.home %}
+            <div class="social">
+              {% if site.author.email %}<a href="mailto:{{ site.author.email }}" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+              {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" title="Google Scholar" target="_blank" rel="noopener"><i class="ai ai-google-scholar"></i></a>{% endif %}
+              {% if site.author.bluesky %}<a href="https://bsky.app/profile/{{ site.author.bluesky }}" title="Bluesky" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky"></i></a>{% endif %}
+              {% if site.author.twitter %}<a href="https://x.com/{{ site.author.twitter | remove: '@' }}" title="X" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}
+            </div>
+          {% endif %}
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        &copy; Copyright {{ site.time | date: '%Y' }} {{ site.title }}. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener">Jekyll</a>. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+      </div>
+    </footer>
+
+    <script>
+      (function () {
+        var root = document.documentElement;
+        document.getElementById("theme-toggle").addEventListener("click", function () {
+          var t = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
+          root.setAttribute("data-theme", t);
+          try { localStorage.setItem("theme", t); } catch (e) {}
+        });
+        var toggler = document.querySelector(".navbar-toggler");
+        toggler.addEventListener("click", function () {
+          var open = document.querySelector(".navbar").classList.toggle("open");
+          toggler.setAttribute("aria-expanded", open);
+        });
+      })();
+    </script>
+  </body>
+</html>
