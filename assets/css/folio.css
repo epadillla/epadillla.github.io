@@ -187,6 +187,7 @@ article li { margin-bottom: 0.5rem; }
 }
 .social a { color: var(--text-color); margin: 0 0.6rem; }
 .social a:hover { color: var(--theme-color); text-decoration: none; }
+.social .icon { width: 3rem; height: 3rem; vertical-align: middle; }
 
 /* Research */
 
