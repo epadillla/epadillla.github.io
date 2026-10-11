@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.min.css">
     <link rel="stylesheet" href="{{ base_path }}/assets/css/folio.css?v={{ site.time | date: "%s" }}">
+    <script>
+      // The site is light-only: forget any theme saved by the old dark-mode toggle
+      try { localStorage.removeItem("theme"); } catch (e) {}
+    </script>
   </head>
 
   <body>
