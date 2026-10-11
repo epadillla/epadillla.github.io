@@ -21,8 +21,7 @@ permalink: /publications/
 <hr>
 {% for paper in manuscripts %}
   <details class="paper paper-details">
-    <summary>{{ paper.title }}{% if paper.status %} <span class="paper-status">[{{ paper.status }}]</span>{% endif %}</summary>
-    {% if paper.paperurl %}<p class="paper-links"><a href="{{ paper.paperurl }}" target="_blank" rel="noopener">Download PDF</a></p>{% endif %}
+    <summary>{{ paper.title }}{% if paper.status %} <span class="paper-status">[{{ paper.status }}]</span>{% endif %}{% if paper.paperurl %} <a href="{{ paper.paperurl }}" target="_blank" rel="noopener">[Working paper]</a>{% endif %}</summary>
     <div class="abstract-text">{{ paper.content | markdownify }}</div>
   </details>
 {% endfor %}
