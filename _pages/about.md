@@ -3,7 +3,7 @@ permalink: /
 title: "About"
 layout: folio
 home: true
-subtitle: 'PhD Candidate at the <a href="https://web.ub.edu/es/inicio">Universitat de Barcelona</a>'
+subtitle: 'PhD Candidate at the Universitat de Barcelona'
 redirect_from: 
   - /about/
   - /about.html
@@ -11,15 +11,11 @@ redirect_from:
 
 Hey, welcome to my webpage!
 
-I am a PhD Candidate in Political Science at the [Universitat de Barcelona](https://web.ub.edu/es/inicio) and a researcher at the [AI-PSR](http://aipsr.net/) group.
+I am a PhD candidate in Political Science at the Universitat de Barcelona. I am currently a visiting PhD student at the European University Institute (October–December 2026) and was previously a visitor at the Humboldt-Universität zu Berlin (April–July 2025).
 
-My thesis project focuses on the political economy of AI and working from home. I am particularly interested in how these technological shocks have impacted the labour market and how such impacts translate into political behaviour and attitudes.
+My dissertation examines how working from home shapes political behaviour and perceptions of labour market threat. I focus on how remote work changes workplace socialisation and everyday life.
 
-During my PhD, I have been a visiting PhD student at the Humboldt-Universität zu Berlin (April–July 2025) and the European University Institute (October–December 2026).
-
-Before starting my PhD, I worked as an RA at the Universitat Pompeu Fabra. I hold a BA in Political Science and Public Administration from the Universitat de València and a Research Master's in Political Science from the Universitat Pompeu Fabra.
-
-I am interested in comparative politics, political behaviour, and political economy. Additionally, I closely follow the methodological debates in the social sciences, particularly those surrounding causal inference and computational social science.
+I am also interested in political elites, the sociology of work, and political economy, and I closely follow methodological debates in the social sciences, especially around causal inference.
 
 You can download my [CV](/files/Padilla_CV.pdf).
 
