@@ -4,7 +4,7 @@
   --bg-color: #ffffff;
   --text-color: #000000;
   --text-color-light: #828282;
-  --theme-color: #b509ac;
+  --theme-color: #1f4e99;
   --link-color: #4682b4;
   --divider-color: rgba(0, 0, 0, 0.1);
   --footer-bg-color: #1c1c1d;
@@ -15,7 +15,7 @@ html[data-theme="dark"] {
   --bg-color: #1c1c1d;
   --text-color: #e8e8e8;
   --text-color-light: #828282;
-  --theme-color: #2698ba;
+  --theme-color: #4a78c2;
   --link-color: #5b9bd5;
   --divider-color: #424246;
   --footer-bg-color: #e8e8e8;
