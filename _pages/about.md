@@ -17,6 +17,6 @@ My dissertation examines how working from home shapes political behaviour and pe
 
 I am also interested in political elites, the sociology of work, and political economy, and I closely follow methodological debates in the social sciences, especially around causal inference.
 
-You can download my [CV](/files/Padilla_CV.pdf).
+You can download my [CV](/files/Padilla_CV.pdf?v={{ site.time | date: '%Y%m%d%H%M%S' }}).
 
 You can also reach out at [erick.padilla@ub.edu](mailto:erick.padilla@ub.edu).

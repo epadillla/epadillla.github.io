@@ -29,6 +29,7 @@
           <li class="nav-item{% if page.home %} active{% endif %}"><a class="nav-link" href="{{ base_path }}/">About</a></li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains '://' %}{% assign url = link.url %}{% else %}{% assign url = link.url | prepend: base_path %}{% endif %}
+            {% if url contains '.pdf' %}{% assign version = site.time | date: '%Y%m%d%H%M%S' %}{% assign url = url | append: '?v=' | append: version %}{% endif %}
             <li class="nav-item{% if page.url == link.url %} active{% endif %}"><a class="nav-link" href="{{ url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
