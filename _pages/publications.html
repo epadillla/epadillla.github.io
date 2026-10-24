@@ -20,18 +20,32 @@ permalink: /publications/
 <h2 id="working-papers">Working papers</h2>
 <hr>
 {% for paper in manuscripts %}
-  <details class="paper paper-details">
-    <summary>{{ paper.title }}{% if paper.status %} <span class="paper-status">[{{ paper.status }}]</span>{% endif %}{% if paper.paperurl %} <a href="{{ paper.paperurl }}" target="_blank" rel="noopener">[Working paper]</a>{% endif %}</summary>
-    <div class="abstract-text">{{ paper.content | markdownify }}</div>
-  </details>
+  <div class="paper">
+    <details class="paper-details">
+      <summary>{{ paper.title }}{% if paper.status %} <span class="paper-status">[{{ paper.status }}]</span>{% endif %}</summary>
+      <div class="abstract-text">{{ paper.content | markdownify }}</div>
+    </details>
+    {% if paper.paperurl %}<p class="paper-links"><a href="{{ paper.paperurl }}" target="_blank" rel="noopener">Link to working paper</a></p>{% endif %}
+  </div>
 {% endfor %}
 
 <h2 id="work-in-progress">Work in Progress</h2>
 <hr>
-<ul>
-  <li><p><strong>Working from Home and Local Electoral Participation. Evidence from Norway</strong>, with Henning Finseraas</p></li>
-  <li><p><strong>Perceptions of AI as an opportunity or a threat: the role of resources and context</strong>, with Aina Gallego, Alex Kuo and Florencia Olivares</p></li>
-  <li><p><strong>Can BigTech Elites Change Public Opinion? Experimental Evidence from Spain</strong>, with Jordi Muñoz</p></li>
-</ul>
+<details class="paper paper-details">
+  <summary>Working from Home and Local Electoral Participation. Evidence from Norway<span class="paper-coauthors">, with Henning Finseraas</span></summary>
+  <div class="abstract-text"><p>How does working from home (WFH) affect political participation? We argue that WFH might have countervailing effects on turnout. Less contact with colleagues means less exposure to mobilisation efforts at the workplace. But it also means a more flexible time schedule and possibly an increase in the salience of local, residential issues. We argue that the latter effect will dominate in local elections, at least for non-habitual voters and those who need to commute to work. We use Norwegian administrative data and a difference-in-differences design to compare turnout before and after COVID for workers employed in occupations that vary in how suitable they are for remote work. We find that exposure to WFH increases the propensity to vote by 1.1 percentage points among citizens who abstained in the previous local election, and by 0.7 percentage points for commuters. Using survey data, we examine a range of social and political mechanisms for the result. Our findings question the mainly negative perspective on WFH that dominates the literature.</p></div>
+</details>
+<details class="paper paper-details">
+  <summary>Canaries in the Home Office? Remote Work, AI Exposure and Long-Term Job Threat <span class="paper-status">(draft available upon request)</span></summary>
+  <div class="abstract-text"><p>Does working from home (WFH) shape how workers perceive the threat posed by generative AI? I argue that WFH erodes the relational side of work, so remote workers should find the same level of AI exposure more threatening than on-site workers. Using six Dutch LISS panel waves (2020–2025) and an event-study design around ChatGPT's release, I find that among workers who mainly work from home, higher occupational exposure to AI increases perceived long-term job threat by 2025, whereas no such effect appears among those who work mainly on-site. The effect does not extend to short-term job-loss expectations, career prospects or job satisfaction, indicating concern about long-run job continuity rather than general pessimism. Data from fifteen European countries show the same moderation for perceptions of AI itself. Suggestive tests locate the effect among remote workers in the least relational occupations or without close ties at work, not in early-adopting sectors. Work arrangements shape attitudes towards AI, with implications for its political consequences.</p></div>
+</details>
+<details class="paper paper-details">
+  <summary>Perceptions of AI as an opportunity or a threat: the role of resources and context<span class="paper-coauthors">, with Aina Gallego, Alex Kuo and Florencia Olivares</span></summary>
+  <div class="abstract-text"><p>Do workers view AI as a threat or an opportunity for their jobs, and do these views matter for policies regulating AI in the workplace? The literature has established that objective occupational exposure to new technologies correlates, albeit weakly, with subjective concerns. This paper argues that, at equal levels of exposure to AI, three types of resources shape whether individuals embrace new technologies with optimism or concern; these are cognitive, non-cognitive, and place-based resources. We test these claims using a new survey of 34,212 respondents across 15 European countries. We find that education and psychological confidence are strongly correlated with AI occupational "optimism", while the hypothesised regional-contextual effects are not. In addition, we show that perceptions of AI as an opportunity or a threat in turn shape support for government intervention on this topic. To conclude, we discuss the implications of our findings for policy in times of rapid labour market change.</p></div>
+</details>
+<details class="paper paper-details">
+  <summary>Can BigTech Elites Change Public Opinion? Experimental Evidence from Spain<span class="paper-coauthors">, with Jordi Muñoz</span></summary>
+  <div class="abstract-text"><p>Do technological companies shape public opinion? We address this question using experimental evidence from an original survey of the Spanish population (N = 2,500, November–December 2025). A survey experiment tests whether attributing a policy proposal to technological companies, rather than to EU governments or academic experts, changes support for it. On average, proposals on AI regulation, climate policy, and a universal basic income receive less support when attributed to technological companies — a backlash consistent with resistance to overt corporate advocacy. This discount, however, is not uniform. Relative to EU governments, it disappears among social media users for AI regulation and the universal basic income, and it tends to shrink among citizens with more favourable views of technological companies and AI. These findings suggest that platform dependency cultivates a segment of citizens who do not discount tech-company political cues, and they speak to the literature on attitudes towards BigTech, platform power, and cue-taking.</p></div>
+</details>
 
 <p>You can also find my articles on <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">my Google Scholar profile</a>.</p>

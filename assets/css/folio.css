@@ -179,6 +179,7 @@ article li { margin-bottom: 0.5rem; }
 .paper-meta { margin: 0.25rem 0 0; }
 .paper-links { margin: 0.4rem 0 0; font-size: 0.85rem; font-style: italic; }
 .paper-status { color: var(--text-color-light); font-style: italic; }
+.paper-coauthors { font-weight: 400; }
 
 .paper-details summary {
   cursor: pointer;
